@@ -37,7 +37,6 @@ function App() {
             setTemperature(data.current.feelslike_c)
             setHumidity(data.current.humidity)
             setWeather(data);
-
          }catch(err){
             console.log(err);
          }
