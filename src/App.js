@@ -76,7 +76,7 @@ function App() {
           <div className='container' style={{display:'flex',flexWrap:'wrap',justifyContent:'space-around'}}>
               <div style={{width:'200px',height:'200px',margin:'20px',alignItems:'center'}}>
                 <div>
-                  <img alt='alt' src={img} width={'150px'} style={{paddingLeft:20}}/>  
+                  <img alt='' src={img} width={'150px'} style={{paddingLeft:20}}/>  
                 </div>
                 <div style={{color:'white',textAlign:'center',fontWeight:'bold',fontSize:40}}>
                   {text}
